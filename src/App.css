@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-image: url("https://i.pinimg.com/originals/6b/cf/25/6bcf253ae44dc5af57d3fb25a441c9be.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+   background-attachment: fixed;
+}
+
+.app-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  font-size: 8rem;
+}
+
+.clock{
+  border: 3px solid rgba(0, 0, 12, 0.3);
+  border-radius: 9px;
+  color:white ;
+}
